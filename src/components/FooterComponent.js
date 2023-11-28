@@ -1,7 +1,7 @@
 import React from 'react';
 
 const FooterComponent = () => {
-  const currentDate = new Date().toLocaleDateString();
+  const currentDate = new Date().toLocaleDateString("ru");
 
   return (
     <footer className="footer">
